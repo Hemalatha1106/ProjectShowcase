@@ -1,0 +1,55 @@
+.Green{
+    background-color: greenyellow;
+    width: 100px;
+    height: 40px;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+.Blue{
+    background-color: blue;
+    width: 100px;
+    height: 40px;
+    margin-right: 30px;
+    border-radius: 20px;
+    color: white;
+}
+.random{
+    width: 100px;
+    height: 40px;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+/* Back to Home Link Styling */
+.back-home {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.back-home li {
+  display: inline;
+}
+
+.back-home li a {
+  text-decoration: none;
+  background: linear-gradient(to right, #60a5fa, #3b82f6);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+  border: 2px solid transparent;
+}
+
+.back-home li a:hover {
+  background: #ffffff;
+  color: #3b82f6;
+  border: 2px solid #3b82f6;
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(59, 130, 246, 0.5);
+}

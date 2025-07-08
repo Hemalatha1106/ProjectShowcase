@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #f0f8ff;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 500px;         /* wider box */
+    min-height: 300px;    /* taller box */
+}
+
+
+/* Title Styling */
+.container h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input Field */
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* Button Style */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #5c67f2;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #4a52d1;
+}
+
+/* Result Message */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #222;
+}
+
+/* Back to Home Link Styling */
+.back-home {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.back-home li {
+    display: inline;
+}
+
+.back-home li a {
+    text-decoration: none;
+    background: linear-gradient(to right, #60a5fa, #3b82f6);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent;
+    display: inline-block;
+}
+
+.back-home li a:hover {
+    background: #ffffff;
+    color: #3b82f6;
+    border: 2px solid #3b82f6;
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(59, 130, 246, 0.5);
+}
